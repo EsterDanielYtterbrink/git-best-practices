@@ -40,6 +40,7 @@
   - Protecting from direct pushes needs a CI that does the pushes for you.
 - Learn how to write a Git commit message - [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
 - Make sure your .gitignore is up to date for what you're developing in. [https://www.gitignore.io/](https://www.gitignore.io/)
+- If you have things you often forget, like running tests or linting, use local githooks to help yourself remember. Just make sure that it is only run on the changes you plan to commit or push. If you want to share hooks within a team, a small shell- or makescript that adds them can be inclueded in the repo. 
 - Sharpen your Git skills by practising often: [https://github.com/praqma-training/git-katas/](https://github.com/praqma-training/git-katas/)
 
 ## More reading
